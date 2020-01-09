@@ -19,6 +19,10 @@ Microsoft Edge:
 Tested if the game played on Microsoft Edge, I would change it so it looks better as all the icons are smaller and a lot of empty space is left.
 ![alt text](onedgeplay.png "Game Test Edge") 
 
+Internet Explorer:
+Tested on Internet Explorer, the navigation would work but the game itself would not work at all with the start button not working.
+![alt text](onexplorerplay.PNG "Game Test Explorer")
+
 ## Wire Frame/ Site Map/ Feedback
 The file has feedback from the demo session, including the wireframe and sitemap.
 [Web Design Document](web%20design%20document.docx)
