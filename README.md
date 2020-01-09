@@ -12,9 +12,9 @@ Key Lights:
 
 ## Web Test
 Chrome:
-Tested if the game played on Chrome
+Tested if the game played on Chrome. I would make some small changes to make it look btter/ more user friendly.
 ![alt text](onchromeplay.png "Game Test Chrome") 
 
 Microsoft Edge:
-Tested if the game played on Microsoft Edge
+Tested if the game played on Microsoft Edge, I would change it so it looks better as all the icons are smaller and a lot of empty space is left.
 ![alt text](onedgeplay.png "Game Test Edge") 
