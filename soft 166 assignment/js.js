@@ -2,6 +2,7 @@ var orderforcomp=[];
 var orderforplayer=[];
 var score= 0;
 
+//On btnstart_Click it reanables all the disabled buttons and calls the function sequence next to start.
 function btnstart_Click(){
     orderforcomp = [];
 	document.getElementById("startButton").disabled = true;
@@ -13,13 +14,13 @@ function btnstart_Click(){
 	document.getElementById("buttonsix").disabled = false;
 	sequencenext();
 }
-//Generates a random number and pushes it to the array.
+//Makes a random number using math.random and uses push to put it into the array
 function sequencenext() {
  orderforcomp.push(Math.floor(Math.random()*6));
  shownextseq(orderforcomp[orderforcomp.length - 1]);
  orderforplayer=[];
 };
-//Displays the colour and sound of each light
+//makes the sound and colour on a timer for each button seperatly by using the .add and .remove class features and using audio within the html to play
 function shownextseq(element) {
     switch (element){
         case 0:              
@@ -78,7 +79,7 @@ function shownextseq(element) {
             break;
     }
  };
-//Pushes user response in to a new array.
+//on the user click it uses the push to record what button the user presses for variable
 $(".btn").click(function(e){
         var clicktrack= $(this).attr("id");
         switch(clicktrack){
@@ -109,13 +110,13 @@ $(".btn").click(function(e){
             }
         compareplaycomp(orderforplayer.length-1);
     });
-	
+	//The increase score function just adds score  and displays it into  the <p> id score.
 	function increaseScore() {
     score++;
     $("#score").text(`Score so far: ${score} Keep Going!`);    
 };
 	
-//Checking sequence matches so far
+//Checks if player and computer sequence matches by using if statements 
 function compareplaycomp(arrindex) {
     if(orderforplayer[arrindex] === orderforcomp[arrindex]){
       if(orderforcomp.length === orderforplayer.length) {
@@ -128,6 +129,7 @@ function compareplaycomp(arrindex) {
       gamelose();
     }
 }
+//disabled all the colour buttons and gives a game over sound and uses if statements to check if you got above a certain score to change the gameover text.
 function gamelose(){
 	$("h1").text("You Lose!");
     var audiolost = document.getElementById("soundbtngameover");
@@ -181,7 +183,7 @@ function togglelight(element)
         })
     });
 }
-//Making functions to turn on the hue lights
+//function which are linked to the lights in the lab 
 $(document).ready(function()
 {
     flashblue();
@@ -191,6 +193,7 @@ $(document).ready(function()
     flashsecondary();
     flashlight();
 });
+//uses .click to light up on button press and a timer to turn the lights off after a .75s timer. same for all other lights.
 function flashblue() {
     $('#buttonone').click(function () {
         togglelight($(this));
