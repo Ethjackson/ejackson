@@ -18,3 +18,7 @@ Tested if the game played on Chrome. I would make some small changes to make it 
 Microsoft Edge:
 Tested if the game played on Microsoft Edge, I would change it so it looks better as all the icons are smaller and a lot of empty space is left.
 ![alt text](onedgeplay.png "Game Test Edge") 
+
+## Wire Frame/ Site Map/ Feedback
+The file has feedback from the demo session, including the wireframe and sitemap.
+web design document.docx
