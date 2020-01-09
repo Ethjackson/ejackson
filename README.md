@@ -34,7 +34,7 @@ The file has feedback from the demo session, including the wireframe and sitemap
 [Demo Feedback](demofeedback-converted.pdf)
 
 ## WAI
-[Web Design Document](web%20design%20document-converted.pdf)
+[Web Design Document](WAI%20Guidelines.docx)
 
 ## Youtube demo 
 <a href="https://www.youtube.com/watch?v=u2-vQu3FLr4" target="_blank"><img src="youtubepic.PNG" 
