@@ -40,7 +40,7 @@ alt="Youtube Video" width="240" height="180" border="10" /></a>
 
 ## Extra Website Features
 Added home page feature so you can hover over the pictures so increase scale:
-![alt text](website extra features/Featurehome.png "Home Page Feature")
+![alt text](website%20extra%20features/Featurehome.png "Home Page Feature")
 Added game page feature so the colour buttons are disabled to begin with:
 ![alt text](website extra features/gamebtndisable.png "Game Page Feature")
 Added game page feature so the information scale increases when hovered over:
