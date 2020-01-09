@@ -39,5 +39,12 @@ The file has feedback from the demo session, including the wireframe and sitemap
 alt="Youtube Video" width="240" height="180" border="10" /></a>
 
 ## Extra Website Features
-website extra features/Featurehome.png
-website extra features/gamebtndisable.png
+Added home page feature so you can hover over the pictures so increase scale:
+![alt text](website extra features/Featurehome.png "Home Page Feature")
+Added game page feature so the colour buttons are disabled to begin with:
+![alt text](website extra features/gamebtndisable.png "Game Page Feature")
+Added game page feature so the information scale increases when hovered over:
+![alt text](website extra features/keypagehover.png "Key Page Feature")
+
+
+
