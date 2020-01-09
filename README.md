@@ -21,4 +21,4 @@ Tested if the game played on Microsoft Edge, I would change it so it looks bette
 
 ## Wire Frame/ Site Map/ Feedback
 The file has feedback from the demo session, including the wireframe and sitemap.
-web design document.docx
+[Web Design Document](web%20design%20document.docx)
