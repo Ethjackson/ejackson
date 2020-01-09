@@ -25,13 +25,13 @@ Tested on Internet Explorer, the navigation would work but the game itself would
 
 ## Wire Frame/ Site Map/ Feedback
 The file has feedback from the demo session, including the wireframe and sitemap.
-[Web Design Document](web%20design%20document.docx)
+[Web Design Document](web%20design%20document-converted.pdf)
 
 ## Application Fact Sheet
-[Application Fact Sheet](Application%20Fact$20Sheet.docx)
+[Application Fact Sheet](Application%20Fact$20Sheet-converted.pdf)
 
 ## Demo Session Feedback
-[Demo Feedback](demofeedback.docx)
+[Demo Feedback](demofeedback-converted.pdf)
 
 
 ## Youtube demo 
