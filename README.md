@@ -7,3 +7,5 @@ About:
 ![alt text](onchromeabout.PNG "Home page")
 Game: 
 ![alt text](onchromegame.PNG "Home page")
+Key Lights:
+![alt text](onchromekeylight.PNG "Home page") 
